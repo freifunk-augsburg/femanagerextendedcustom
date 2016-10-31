@@ -15,8 +15,7 @@ $tmpFeUsersColumns = [
         'config' => [
             'type' => 'text',
             'rows' => 15,
-            'cols' => 40,
-            'eval' => 'trim'
+            'cols' => 40
         ],
     ],
     'tx_extbase_type' => [
