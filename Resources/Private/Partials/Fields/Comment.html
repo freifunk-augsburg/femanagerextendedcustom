@@ -1,0 +1,13 @@
+{namespace femanager=In2code\Femanager\ViewHelpers}
+<div class="femanager_fieldset control-group">
+	<label for="comment" class="control-label">
+		<f:translate key="tx_femanagerextendedcustom_domain_model_user.comment" extensionName="femanagerextendedcustom">Comment</f:translate>
+	</label>
+	<div class="controls">
+		<f:form.textfield
+				id="comment"
+				property="comment"
+				class="input-block-level"
+				additionalAttributes="{femanager:Validation.FormValidationData(settings:settings,fieldName:'comment')}" />
+	</div>
+</div>

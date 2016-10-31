@@ -1,0 +1,32 @@
+config.tx_extbase{
+	persistence{
+		classes{
+			In2code\Femanager\Domain\Model\User {
+				subclasses {
+					0 = C1\Femanagerextendedcustom\Domain\Model\User
+				}
+			}
+			C1\Femanagerextendedcustom\Domain\Model\User {
+				mapping {
+					tableName = fe_users
+					recordType = 0
+				}
+			}
+		}
+	}
+	objects {
+		In2code\Femanager\Controller\NewController.className = C1\Femanagerextendedcustom\Controller\NewController
+		In2code\Femanager\Controller\EditController.className = C1\Femanagerextendedcustom\Controller\EditController
+
+		In2code\Femanager\Domain\Validator\ServersideValidator.className = C1\Femanagerextendedcustom\Domain\Validator\CustomServersideValidator
+		In2code\Femanager\Domain\Validator\ClientsideValidator.className = C1\Femanagerextendedcustom\Domain\Validator\CustomClientsideValidator
+	}
+}
+
+#plugin.tx_femanager {
+#	view {
+#		partialRootPaths {
+#			1 = EXT:femanagerextendedcustom/Resources/Private/Partials/
+#		}
+#	}
+#}
