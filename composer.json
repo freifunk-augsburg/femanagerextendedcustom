@@ -1,13 +1,13 @@
 {
-  "name": "in2code/femanagerextendedcustom",
+  "name": "c1/femanagerextendedcustom",
   "description": "Example addon extension to TYPO3 extension femanager",
   "version": "1.0.2",
   "keywords": ["typo3", "form", "femanager", "fe_users", "registration"],
   "homepage": "https://forge.typo3.org/projects/extension-femanager",
   "authors": [
     {
-      "name": "Alex Kellner",
-      "email": "alexander.kellner@in2code.de"
+      "name": "Manuel Munz",
+      "email": "t3dev@comuno.net"
     }
   ],
   "type": "typo3-cms-extension",
